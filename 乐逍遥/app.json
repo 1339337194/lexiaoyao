@@ -1,7 +1,8 @@
 {
   "pages":[
-
+   
     "pages/login/login",
+
     "pages/index/index",
     "pages/SubmitOrder/SubmitOrder",
     "pages/Coupon_Details/Coupon_Details",
