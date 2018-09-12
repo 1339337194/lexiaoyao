@@ -1,0 +1,14 @@
+<form bindsubmit="formSubmit">
+<view class='tuikuanjine'>
+  <view class='tuikuanjine_head'>退款金额</view>
+  <view class='tuikuanjine_content'>¥{{total/100}}</view>
+</view>
+<view class='tuikuanjine'>
+  <view class='tuikuanjine_head'>退款说明</view>
+  <view class='tuikuanjine_content'><textarea name='content' placeholder='填写退款原因'></textarea></view>
+</view>
+<view class='dingdanxinxi3'>
+<!-- <view class='shenqingtuikuan' bindtap='tijiao'>提交申请</view> -->
+<button  class='shenqingtuikuan' formType="submit">提交申请</button>
+</view>
+</form>

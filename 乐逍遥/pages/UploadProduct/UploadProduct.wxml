@@ -1,0 +1,37 @@
+<form bindsubmit="formSubmit">
+<view class='sousuo'>
+<view class='leibie'>商品名称</view>
+<view class='sousuo1'><input type='text' name='name' placeholder='请输入商品名称'></input></view>
+</view>
+
+<view class='sousuo'>
+<view class='leibie'>商品价格</view>
+<view class='sousuo1'><input type='digit' name='price' placeholder='请输入商品价格'></input></view>
+</view>
+
+<view class='sousuo'>
+<view class='leibie'>商品分类</view>
+<picker class='sousuo1'  name='goods_class' mode="selector" bindchange="listenerPickerSelected" range="{{array}}" value="{{array[index]}}" >
+    <text style=' margin-left:20rpx;font-size: 24rpx;'>{{array[index]}}</text>   
+</picker>
+</view>
+
+<view class='shangchuantupian'>
+<view>上传商品图</view>
+<!-- <view class='shangchuantupian1'><image src='/img/p38.jpg'></image></view> -->
+<input hidden='true'  name='url' value='{{imgurl}}'></input>
+<view class="educt_hasupload_pic" wx:for="{{evalList[0].tempFilePaths}}"  wx:key="index">
+              <image src="{{item.pic}}" bindtap='clearImg' class="upload"></image>
+              <!-- <image src="../../images/deltel.png" bindtap='clearImg' data-index="{{index}}" class="deltel"></image> -->
+          </view>
+          <view class="educt_upload_add" bindtap="joinPicture" data-index="{{0}}">
+              <image src="/img/p39.jpg"></image>
+          </view>
+
+</view>
+<view class='shangpinmiaoshu'>
+  <view>商品描述</view>
+  <view class='shangpinmiaoshu1'><textarea name='content' placeholder='请输入商品描述'></textarea></view>
+</view>
+<button class='queding' formType="submit">确定</button>
+</form>

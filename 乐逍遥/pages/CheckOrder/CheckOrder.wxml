@@ -1,0 +1,72 @@
+<view class="navbar">  
+      <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>  
+    </view>  
+    <!--首页-->  
+    <view hidden="{{currentTab!==0}}">  
+      
+
+     <!-- <view  wx:for='{{order}}'>
+       <view data-code='{{item.code}}' data-url='{{item.url}}' data-name='{{item.name}}' class='diancan' bindtap='diancan'>
+      <view class='diancan1'>
+      <image src='{{img}}{{item.url}}'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>{{item.name}}</view>
+        <view class='diancan113'>￥49.00<span bindtap='a'   data-a='a' ><image  src='/img/p26.png'></image>删除</span></view>
+      </view>
+      </view>
+      </view>
+      </view> -->
+
+
+      <view class='diancan' wx:for='{{order}}' data-code='{{item.code}}' data-url='{{item.url}}' data-name='{{item.mch}}' bindtap='yiduihuan'>
+      <view class='diancan1'>
+      <image src='{{img}}{{item.url}}'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>{{item.mch}}</view>
+        <view class='diancan112'>{{item.g_name}}</view>
+        <view class='diancan113'>￥{{item.total/100}}<span data-a='a'> <image src='/img/p26.png'></image>删除</span></view>
+      </view>
+      </view>
+      </view>
+
+
+    </view>
+    <view hidden="{{currentTab!==1}}">  
+
+     <view wx:for='{{torder}}'  wx:if="{{item.o_status==4}}"  data-code='{{item.code}}' data-url='{{item.url}}' data-name='{{item.name}}' class='diancan' bindtap='shenhezhong'>
+      <view class='diancan1'>
+      <image src='{{img}}{{item.url}}'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>{{item.mch}}<span>审核中</span></view>
+        <view class='diancan112'>{{item.g_name}}</view>
+        <view class='diancan113'>￥{{item.total/100}}</view>
+      </view>
+      </view>
+      </view>
+
+   
+       <view wx:for='{{torder}}'  wx:if="{{item.o_status==5}}"  data-code='{{item.code}}' data-url='{{item.url}}' data-name='{{item.name}}' class='diancan' bindtap='yituikuan'>
+      <view class='diancan1'>
+      <image src='{{img}}{{item.url}}'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>{{item.mch}}<span class='yituikuan'>已退款</span></view>
+        <view class='diancan112'>{{item.g_name}}</view>
+        <view class='diancan113'>￥{{item.total/100}}<span data-a='a'><image src='/img/p26.png'></image>删除</span></view>
+      </view>
+      </view>
+      </view>
+
+
+      <view wx:for='{{torder}}'  wx:if="{{item.o_status==6}}"  data-code='{{item.code}}' data-url='{{item.url}}' data-name='{{item.name}}' class='diancan' bindtap='tuikuanshibai'>
+      <view class='diancan1'>
+      <image src='{{img}}{{item.url}}'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>{{item.mch}}<span>退款失败</span></view>
+        <view class='diancan112'>{{item.g_name}}</view>
+        <view class='diancan113'>￥{{item.total/100}}<span data-a='a'><image src='/img/p26.png'></image>删除</span></view>
+      </view>
+      </view>
+      </view>
+
+    
+    </view>

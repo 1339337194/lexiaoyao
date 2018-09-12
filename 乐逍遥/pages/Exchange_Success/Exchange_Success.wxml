@@ -1,0 +1,9 @@
+<view class='all'>
+  <image src='/img/p37.jpg'></image>
+  <view class='duihuanma'>
+    <view class='duihuanma1'>兑换成功</view>
+  </view>
+  <view class='dingdanxinxi3' bindtap='que'>
+<view class='shenqingtuikuan'>确定</view>
+</view>
+</view>

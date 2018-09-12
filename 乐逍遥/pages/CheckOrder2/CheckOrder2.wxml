@@ -1,0 +1,44 @@
+<view class="navbar">  
+      <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>  
+    </view>  
+    <!--首页-->  
+    <view hidden="{{currentTab!==0}}">  
+     
+
+    <view  wx:for='{{order}}'>
+       <view data-code='{{item.code}}' data-url='{{item.url}}' data-name='{{item.name}}' class='diancan' bindtap='diancan'>
+      <view class='diancan1'>
+      <image src='{{img}}{{item.url}}'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>{{item.name}}</view>
+        <view class='diancan112'>{{item.orders}}</view>
+        <view class='diancan113'>￥{{item.total/100}}<span bindtap='a' class='wancheng' data-a='a' >点击完成</span></view>
+      </view>
+      </view>
+      </view>
+      </view>
+
+
+
+
+
+    </view>
+    <view hidden="{{currentTab!==1}}">  
+     
+ 
+
+    <view  wx:for='{{wcorder}}'>
+       <view data-code='{{item.code}}' data-url='{{item.url}}' data-name='{{item.name}}' class='diancan' bindtap='diancan'>
+      <view class='diancan1'>
+      <image src='{{img}}{{item.url}}'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>{{item.name}}</view>
+        <view class='diancan112'>{{item.orders}}</view>
+        <view class='diancan113'>￥{{item.total/100}}<span bindtap='a' data-a='b' ><image src='/img/p26.png'></image>删除</span></view>
+      </view>
+      </view>
+      </view>
+      </view>
+
+
+    </view>

@@ -1,0 +1,10 @@
+<view class='headimg'>
+<image src='/img/p44.jpg'></image>
+</view>
+<view class='name'>
+<view class='name1'>维洛纳主题酒店(时代店)</view>
+<view class='name2'><image src='/img/p45.png'></image><text>定市新市区裕康街31号1号楼  </text></view>
+</view>
+<view class='map'>
+<map></map>
+</view>

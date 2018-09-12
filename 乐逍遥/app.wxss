@@ -1,0 +1,22 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.person_box{
+  position: relative;
+}
+.phone_select{
+  margin-top:0;
+  z-index: 100;
+  position: absolute;
+}
+.phone_personal{
+  margin: 0 auto;
+}
+

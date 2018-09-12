@@ -1,0 +1,21 @@
+<view class='headimg'>
+<image src='{{img}}{{mch.url}}'></image>
+</view>
+<view class='name'>
+<view class='name1'>{{mch.name}}</view>
+<view class='name2' bindtap='map'><image src='/img/p45.png'></image><text>{{mch.address}}  </text></view>
+</view>
+<view class='list'>
+
+      <view wx:for="{{goods}}" class='diancan' data-id='{{item.id}}' bindtap='list'>
+      <view class='diancan1'>
+      <image src='{{img}}{{item.url}}'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>{{item.name}}</view>
+       <view class='diancan113'><text>￥{{item.price/100}}</text><span class='wancheng'>立即购买</span></view>
+      </view>
+      </view>
+      </view>
+     
+
+</view>

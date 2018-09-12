@@ -1,0 +1,44 @@
+.tuikuanjine_head{
+  padding: 30rpx;
+  font-weight: bolder;
+  border-bottom: 1px solid #f2f2f2;
+}
+.tuikuanjine_content{
+  color: #f62f30;
+  padding: 30rpx;
+  border-bottom: 20rpx solid #f2f2f2;
+}
+.shenhezhong_content1{
+  padding:50rpx;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  font-size: 30rpx;
+}
+.shenhezhong_content1 image{
+  width: 10rpx;
+  height: 10rpx;
+}
+.shenhezhong_content11{
+  position: absolute;
+  left: 80rpx;
+
+}
+.shenhezhong_content12{
+  position: absolute;
+  left: 350rpx;
+}
+.shenhezhong_content13{
+  position: absolute;
+  left: 350rpx;
+  color: #f62f30;
+  font-weight: bold;
+}
+.shenhezhong{
+  border-top: 20rpx solid #f2f2f2;
+  padding-top: 38rpx;
+  text-align: center;
+  color: #f62f30;
+  font-weight: bold;
+}

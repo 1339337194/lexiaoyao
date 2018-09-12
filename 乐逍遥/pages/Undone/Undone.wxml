@@ -1,0 +1,55 @@
+ <view class='diancan'>
+      <view class='diancan1'>
+      <image src='/img/p18.jpg'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>惠泽园（金悦正和店）</view>
+        <view class='diancan112'>￥49.00</view>
+      </view>
+      </view>
+</view>
+<view class='dingdanxinxi'>
+<view class='dingdanxinxi_head'><text>订单状态</text><span>未完成</span></view>
+</view>
+<view class='menu2'>
+  <view class='menu1'>
+  <span class='menu11'>茄子腊味煲仔饭</span>
+  <span class='menu12'>1份</span>
+  <span class='menu13'>￥30.00</span>
+  </view>
+  <view class='menu1'>
+  <span class='menu11'>茄子腊味煲仔饭</span>
+  <span class='menu12'>1份</span>
+  <span class='menu13'>￥30.00</span>
+  </view>
+  <view class='menu1'>
+  <span class='menu11'>茄子腊味煲仔饭</span>
+  <span class='menu12'>1份</span>
+  <span class='menu13'>￥30.00</span>
+  </view>
+  <view class='menu1'>
+  <span class='menu11'>茄子腊味煲仔饭</span>
+  <span class='menu12'>1份</span>
+  <span class='menu13'>￥30.00</span>
+  </view>
+  <view class='menu1'>
+  <span class='menu11'>茄子腊味煲仔饭</span>
+  <span class='menu12'>1份</span>
+  <span class='menu13'>￥30.00</span>
+  </view>
+  <view class='menu1'>
+  <span class='menu11'>茄子腊味煲仔饭</span>
+  <span class='menu12'>1份</span>
+  <span class='menu13'>￥30.00</span>
+  </view>
+  <view class='shifu'>实付：<span>¥570.00</span></view>
+</view>
+<view class='dingdanxinxi'>
+<view class='dingdanxinxi_head'>订单信息</view>
+<view class='dingdanxinxi_content'>
+  <view class='dingdanxinxi_content1'>联系人<span>王华</span></view>
+  <view class='dingdanxinxi_content1'>联系电话<span>13000000000</span></view>
+  <view class='dingdanxinxi_content1'>订单时间<span>2018-04-14 15:51:03</span></view>
+  <view class='dingdanxinxi_content1'>数量<span>6</span></view>
+  <view class='dingdanxinxi_content1'>支付方式<span>微信支付</span></view>
+</view>
+</view>

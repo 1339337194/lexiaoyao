@@ -1,0 +1,15 @@
+<form bindsubmit="formSubmit">
+<view class='all'>
+  <image src='/img/p37.jpg'></image>
+  <view class='duihuanma'>
+    <view class='duihuanma1'>请输入用户的兑换码进行兑换</view>
+    <view class='duihuanma2'>
+      <input name='code' type='text'></input>
+    </view>
+  </view>
+  <view class='dingdanxinxi3'>
+<!-- <view class='shenqingtuikuan' bindtap='queding'>确定</view> -->
+<button class='shenqingtuikuan' formType="submit">确定</button>
+</view>
+</view>
+</form>

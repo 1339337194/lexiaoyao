@@ -1,0 +1,99 @@
+
+.diancan11{
+  margin-left: 24rpx;
+}
+.diancan111{
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.diancan112{
+  margin-top: 70rpx;
+  color: #f62f30;
+  font-size: 38rpx;
+}
+.diancan112 image{
+  width: 34rpx;
+  height: 34rpx;
+  margin-right: 10rpx;
+}
+.diancan112 span{
+    position: absolute;
+    right: 34rpx;
+    color: #666666;
+    font-size: 34rpx;
+}
+.diancan1{
+  width: 700rpx;
+  margin: 0 auto;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+}
+.diancan1 image{
+   width: 160rpx;
+  height: 160rpx;
+}
+.dingdanxinxi{
+  border-top: 20rpx solid #f2f2f2;
+}
+.dingdanxinxi_head{
+  padding: 30rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+  font-weight: bolder;
+}
+.dingdanxinxi_content1{
+  padding: 30rpx;
+  font-size: 30rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.dingdanxinxi_content1 .yituikuan{
+  position: absolute;
+  right: 30rpx;
+  color: #999999;
+}
+.tuikuanyuanyin{
+  color: #999999;
+}
+.menu1{
+  padding: 30rpx;
+  font-size: 34rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.menu12{
+  position: absolute;
+  left: 444rpx;
+}
+.menu13{
+  position: absolute;
+  left: 600rpx;
+}
+.shifu{
+  padding: 30rpx;
+  font-size: 24rpx;
+  color: #999999;
+  text-align: right;
+}
+.shifu span{
+  font-size: 36rpx;
+  color: #f62f30;
+}
+.dingdanxinxi2{
+  border-top: 20rpx solid #f2f2f2;
+}
+.dingdanxinxi2_head{
+  padding: 30rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+  font-weight: bolder;
+}
+.dingdanxinxi2_content1{
+  padding: 30rpx;
+  font-size: 30rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.dingdanxinxi2_content1 span{
+  position: absolute;
+  left: 212rpx;
+  color: #999999;
+}

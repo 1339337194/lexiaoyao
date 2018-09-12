@@ -1,0 +1,108 @@
+.headimg{
+  height: 394rpx;
+}
+.headimg image{
+  width: 100%;
+  height: 100%;
+}
+.name2 image{
+  width: 28rpx;
+  height: 36rpx;
+}
+.name view{
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.name2 image{
+  margin-right: 20rpx;
+}
+.name1{
+font-size: 32rpx;
+}
+.name2{
+  font-size: 22rpx;
+  color: #666666;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+}
+.diancan{
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.diancan11{
+  margin-left: 24rpx;
+}
+.diancan111{
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.diancan112{
+  margin-top: 20rpx;
+  color: #999999;
+  font-size: 22rpx;
+  width: 460rpx;
+  display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+    -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+    -webkit-line-clamp: 2; /** 显示的行数 **/
+    overflow: hidden;  /** 隐藏超出的内容 **/
+}
+.diancan113{
+  margin-top: 70rpx;
+  color: #f62f30;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+}
+.diancan113 image{
+  width: 34rpx;
+  height: 34rpx;
+  margin-right: 10rpx;
+}
+.diancan113 span{
+    position: absolute;
+    right: 34rpx;
+    color: #666666;
+    font-size: 34rpx;
+}
+.diancan113 .wancheng{
+    position: absolute;
+    right: 34rpx;
+    font-size: 28rpx;
+    text-align: center;
+    padding: 14rpx;
+    border: 1rpx solid #f62f30;
+    color: #f62f30;
+    height: 40rpx;
+    line-height: 40rpx;
+    border-radius: 40rpx;
+}
+.diancan111 span{
+   color:#f62f30;
+   position: absolute;
+   right: 30rpx;
+}
+.diancan111 .yituikuan{
+   color:#999999;
+   position: absolute;
+   right: 30rpx;
+}
+.diancan1{
+  width: 700rpx;
+  margin: 0 auto;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+}
+.diancan1 image{
+   width: 208rpx;
+  height: 160rpx;
+}
+.list{
+  margin-top: 30rpx;
+  border-top: 20rpx solid #f2f2f2;
+}

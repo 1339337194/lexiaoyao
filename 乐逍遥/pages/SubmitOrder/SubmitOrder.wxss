@@ -1,0 +1,121 @@
+.head{
+  padding: 30rpx;
+}
+.head1{
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+}
+.head11 image{
+  width: 214rpx;
+  height: 148rpx;
+}
+.head12{
+  font-size: 26rpx;
+  margin-left: 20rpx;
+}
+.head12 text{
+  color: #f62f30;
+}
+.shuliang{
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  margin-top: 80rpx;
+}
+.shuliang image{
+  width: 42rpx;
+  height: 42rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.shifu{
+  font-size: 28rpx;
+  color: #666666;
+  margin-top: 10rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  padding-top: 10rpx;
+  border-top: 1rpx solid #f2f2f2;
+  text-align: right;
+}
+.shifu span{
+  color: #f62f30;
+  font-size: 36rpx;
+}
+.lianxi{
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  border-top: 20rpx solid #f2f2f2;
+  margin-top: 30rpx;
+  padding: 20rpx 30rpx 0rpx 30rpx;
+  font-size: 28rpx;
+}
+.lianxi2{
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  border-top: 20rpx solid #f2f2f2;
+  margin-top: 30rpx;
+  padding: 26rpx 30rpx 26rpx 30rpx;
+  font-size: 28rpx;
+  border-bottom: 20rpx solid #f2f2f2;
+}
+.lianxi input{
+  margin-left: 20rpx;
+}
+.lianxi image{
+  height: 46rpx;
+  width: 48rpx;
+}
+.lianxi2 image{
+  height: 46rpx;
+  width: 48rpx;
+}
+.zhifu{
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  position: absolute;
+  right: 30rpx;
+}
+.zhifu image{
+  margin-right: 10rpx;
+}
+.tijiao{
+  width: 100%;
+  height: 84rpx;
+  background-color: #535353;
+  position: fixed;
+  bottom: 0;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  color: white;
+}
+.head12 text{
+  position: absolute;
+  right: 30rpx;
+}
+.tijiao2{
+  width: 226rpx;
+  background-color: #f62f30;
+  color:azure;
+  text-align: center;
+  height: 84rpx;
+  line-height: 84rpx;
+  position: absolute;
+  right: 0;
+}
+.tijiao1{
+  position: absolute;
+  left: 290rpx;
+  font-size: 34rpx;
+}

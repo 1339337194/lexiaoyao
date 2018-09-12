@@ -1,0 +1,5 @@
+<view class='all'>
+  <view class='shangpu' bindtap='shangpuxinxi'><view>商铺信息</view><image src='/img/p35.jpg' class='jiantou'></image></view>
+  <view class='shangpu' bindtap='shangpinxinxi'><view>商品信息</view><image src='/img/p35.jpg' class='jiantou'></image></view>
+  <view class='shangpu' bindtap='chakandingdan'><view>查看订单</view><image src='/img/p35.jpg' class='jiantou'></image></view>
+</view>

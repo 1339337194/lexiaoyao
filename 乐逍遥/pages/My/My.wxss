@@ -1,0 +1,87 @@
+.beijing{
+  width: 100%;
+  height: 364rpx;
+}
+.touxiang{
+  position: absolute;
+  top: 60rpx;
+  left: 278rpx;
+  height: 174rpx;
+  width: 174rpx;
+  border-radius: 50%;
+}
+.touxiang image{
+  width: 174rpx;
+  height: 174rpx;
+  border-radius: 50%;
+}
+.ID{
+  color: white;
+  text-align: center
+}
+.gongneng1 image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.gongneng{
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  margin-top: 40rpx;
+}
+.gongneng1{
+  width: 33.3%;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  font-size: 26rpx;
+  color: #333333;
+}
+.woshishangjia{
+  margin-top: 30rpx;
+  border-top: 20rpx solid #f2f2f2;
+  padding: 20rpx 30rpx 20rpx 30rpx;
+   display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.woshishangjia image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.woshishangjia span{
+  font-size: 32rpx;
+  margin-left: 16rpx;
+}
+.woshishangjia .jiantou{
+  height: 24rpx;
+  width: 10rpx;
+  position: absolute;
+  right: 30rpx;
+}
+.woshishangjia2{
+
+  padding: 20rpx 30rpx 20rpx 30rpx;
+   display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.woshishangjia2 image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.woshishangjia2 span{
+  font-size: 32rpx;
+  margin-left: 16rpx;
+}
+.woshishangjia2 .jiantou{
+  height: 24rpx;
+  width: 10rpx;
+  position: absolute;
+  right: 30rpx;
+}

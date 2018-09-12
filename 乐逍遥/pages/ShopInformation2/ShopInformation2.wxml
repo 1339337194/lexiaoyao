@@ -1,0 +1,21 @@
+<view class='sousuo'>
+<view class='leibie'>详细地址</view>
+<view class='sousuo1'><input type='text' placeholder='请填写您的详细地址'></input></view>
+</view>
+<view class='sousuo'>
+<view class='leibie'>店铺名称</view>
+<view class='sousuo1'><input type='text' placeholder='请填写您的店铺名称'></input></view>
+</view>
+<view class='sousuo'>
+<view class='leibie'>联系人</view>
+<view class='sousuo1'><input type='text' placeholder='请填写您的姓名'></input></view>
+</view>
+<view class='sousuo'>
+<view class='leibie'>联系方式</view>
+<view class='sousuo1'><input type='text' placeholder='请填写您的电话号码'></input></view>
+</view>
+<view class='shangchuan'>
+  <view class='leibie'>上传门店图</view>
+  <view class='shangchuan2'><image src='/img/p39.jpg'></image></view>
+</view>
+<view class='queding'>保存</view>

@@ -1,0 +1,5 @@
+<view class='all'>
+<image src='/img/p58.jpg'></image>
+<view class='jine'>￥{{total}}</view>
+<view class='fanhui' bindtap='fanhui'></view>
+</view>

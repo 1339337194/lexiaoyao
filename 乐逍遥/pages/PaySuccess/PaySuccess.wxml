@@ -1,0 +1,6 @@
+<view class='all'>
+<image src='/img/p50.jpg'></image>
+<view class='name'>{{g_name}}</view>
+<view class='duihuanma'>{{code}}</view>
+<view class='jine'>￥{{total/100}}</view>
+</view>

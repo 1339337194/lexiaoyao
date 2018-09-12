@@ -1,0 +1,36 @@
+ <view class='diancan'>
+      <view class='diancan1'>
+      <image src='{{url}}'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>{{name}}</view>
+        <view class='diancan112'>￥{{order.total/100}}</view>
+      </view>
+      </view>
+</view>
+<view class='dingdanxinxi'>
+<view class='dingdanxinxi_head'>兑换码</view>
+<view class='dingdanxinxi_content'>
+  <view class='dingdanxinxi_content1'>{{order.code}}<span class='yituikuan'>已兑换</span></view>
+</view>
+</view>
+<view class='dingdanxinxi'>
+<view class='dingdanxinxi_head'>订单内容</view>
+<view class='menu'>
+  <view class='menu1'>
+  <span class='menu11'>{{order.g_name}}</span>
+  <span class='menu12'>{{order.num}}个</span>
+  <span class='menu13'>￥{{order.total/100}}</span>
+  </view>
+  <view class='shifu'>实付：<span>¥{{order.total/100}}</span></view>
+</view>
+</view>
+<view class='dingdanxinxi2'>
+<view class='dingdanxinxi2_head'>订单信息</view>
+<view class='dingdanxinxi2_content'>
+  <view class='dingdanxinxi2_content1'>联系人<span>{{order.name}}</span></view>
+  <view class='dingdanxinxi2_content1'>联系电话<span>{{order.phone}}</span></view>
+  <view class='dingdanxinxi2_content1'>订单时间<span>{{order.intime}}</span></view>
+  <view class='dingdanxinxi2_content1'>数量<span>{{order.num}}</span></view>
+  <view class='dingdanxinxi2_content1'>支付方式<span>微信支付</span></view>
+</view>
+</view>

@@ -1,0 +1,33 @@
+<view class='head'>
+  <view class='head1'>
+    <view class='head11'><image src='{{img}}{{good.url}}'></image></view>
+    <view class='head12'>
+    <span>{{good.name}}</span><text>￥{{good.price/100}}</text>
+    <view class='shuliang'>
+    <image src='/img/p47.jpg' bindtap="bindMinus"></image>
+    <span>{{num}}</span>
+    <image src='/img/p48.jpg'bindtap="bindPlus"></image>
+    </view>
+    </view>
+  </view>
+</view>
+<view class='shifu'>实付：<span>￥{{num*good.price/100}}</span></view>
+<form bindsubmit="formSubmit">
+<view class='lianxi'>
+<text>联系人</text>
+<input type='text' name='name' placeholder='请输入联系人姓名'></input>
+</view>
+<view class='lianxi'>
+<text>联系方式</text>
+<input type='number' name='phone' placeholder='请输入联系方式'></input>
+</view>
+<view class='lianxi2'>
+<text>支付方式</text>
+<view class='zhifu'><image src='/img/p49.jpg'></image><text>微信支付</text></view>
+</view>
+<view class='tijiao'>
+<view class='tijiao1'>合计：￥{{num*good.price/100}}</view>
+<!-- <view class='tijiao2' bindtap='tijiao'>提交订单</view> -->
+<button  class='tijiao2' formType="submit">提交订单</button>
+</view>
+</form>

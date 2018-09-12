@@ -1,0 +1,8 @@
+<view class='all'>
+<image src='/img/p41.jpg'></image>
+<form bindsubmit="formSubmit">
+<input name='name' type='text' value='{{goodsclass}}'></input>
+<!-- <view class='queding' bindtap='queding'></view> -->
+<button class='queding' style='' formType="submit">确定</button>
+</form>
+</view>

@@ -1,0 +1,61 @@
+<view class='sousuo'>
+<view class='leibie'>经营种类</view>
+<view class='sousuo1'> 
+<view class='tab'>
+    <view class="phone_one" bindtap="clickPerson">
+    <view class="phone_personal"bindtap="jiantou">{{firstPerson}} {{jiantou}}</view>
+    </view>
+    <view class="person_box">
+    <view class="phone_select" hidden="{{selectPerson}}">
+        <view class="select_one" bindtap="mySelect" data-me="农家乐1">农家乐1</view>
+        <view class="select_one" bindtap="mySelect" data-me="农家乐2">农家乐2</view>
+        <view class="select_one" bindtap="mySelect" data-me="农家乐3">农家乐3</view>
+        <view class="select_one" bindtap="mySelect" data-me="农家乐4">农家乐5</view>
+        <view class="select_one" bindtap="mySelect" data-me="农家乐5">农家乐5</view>
+        <view class="select_one" bindtap="mySelect" data-me="农家乐6">农家乐6</view>
+        <view class="select_one" bindtap="mySelect" data-me="农家乐7">农家乐7</view>
+    </view>
+    </view>
+  </view>
+  </view>
+</view>
+<view class='sousuo'>
+<view class='leibie'>店铺名称</view>
+<view class='sousuo1'><input type='text' placeholder='请填写您的店铺名称'></input></view>
+</view>
+<view class='sousuo'>
+<view class='leibie'>联系人</view>
+<view class='sousuo1'><input type='text' placeholder='请填写您的姓名'></input></view>
+</view>
+<view class='sousuo'>
+<view class='leibie'>联系电话</view>
+<view class='sousuo1'><input type='text' placeholder='请填写您的电话号码'></input></view>
+</view>
+<view class='sousuo'>
+<view class='leibie'>联系邮箱</view>
+<view class='sousuo1'><input type='text' placeholder='请输入联系人邮箱'></input></view>
+</view>
+<view class='sousuo'>
+<view class='leibie'>联系地址</view>
+<view class='sousuo1'><input type='text' placeholder='请输入店铺地址'></input></view>
+</view>
+<view class='sousuo22'>
+<view class='leibie'>店铺介绍</view>
+<view class='sousuo2'><textarea type='text' placeholder='请对您的店铺进行描述'></textarea></view>
+</view>
+<view class='sousuo'>
+<view class='leibie'>联系地址</view>
+<view class='sousuo1'><input type='text' placeholder='请输入营业时间'></input></view>
+</view>
+<view class='shangchuan'>
+  <view class='leibie'>上传门店图</view>
+  <view class='shangchuan2'><image src='/img/p39.jpg'></image></view>
+</view>
+<view class='shangchuan'>
+  <view class='leibie'>上传门店图</view>
+  <view class='shangchuan3'>
+  <image src='/img/p42.jpg'></image>
+  <image src='/img/p43.jpg' class='shangchuan31'></image>
+  </view>
+</view>
+<view class='queding' bindtap='shenqing'>点击申请</view>

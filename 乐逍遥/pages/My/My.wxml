@@ -1,0 +1,36 @@
+<view class='head'>
+<image src='/img/p29.jpg' class='beijing'></image>
+  <view class='touxiang'>
+    <view class='touxiang1'><image src='{{avataurl}}'></image></view>
+    <view class='ID'>{{nick}}</view>
+  </view>
+</view>
+<view class='gongneng'>
+  <view class='gongneng1' bindtap='diancan'>
+  <view><image src='/img/p30.jpg'></image></view>
+  <view>点餐</view>
+  </view>
+  <view class='gongneng1' bindtap='diancan'>
+  <view><image src='/img/p31.jpg'></image></view>
+  <view>预订</view>
+  </view>
+  <view class='gongneng1' bindtap='duihuan'>
+  <view><image src='/img/p32.jpg'></image></view>
+  <view>兑换</view>
+  </view>
+</view>
+<view class='woshishangjia' bindtap='woshishangjia'>
+  <image src='/img/p33.jpg'></image>
+  <span>我是商家</span>
+  <image src='/img/p35.jpg' class='jiantou'></image>
+</view>
+<view class='woshishangjia2' bindtap='xiaji'>
+  <image src='/img/p55.jpg'></image>
+  <span>我的下级</span>
+  <image src='/img/p35.jpg' class='jiantou'></image>
+</view>
+<view class='woshishangjia2' bindtap='fandian'>
+  <image src='/img/p56.jpg'></image>
+  <span>我的返点</span>
+  <image src='/img/p35.jpg' class='jiantou'></image>
+</view>

@@ -1,0 +1,97 @@
+<view class="navbar">  
+      <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>  
+    </view>  
+    <!--首页-->  
+    <view hidden="{{currentTab!==0}}">  
+     
+     <view  wx:for='{{order}}'>
+       <view data-code='{{item.code}}' data-url='{{item.url}}' data-name='{{item.name}}' class='diancan' bindtap='diancan'>
+      <view class='diancan1'>
+      <image src='{{img}}{{item.url}}'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>{{item.name}}</view>
+        <view class='diancan112'>￥{{item.total/100}}<span bindtap='a'   data-a='a' ><image  src='/img/p26.png'></image>删除</span></view>
+      </view>
+      </view>
+      </view>
+      </view>
+
+    </view>
+    <view hidden="{{currentTab!==1}}">  
+            <view  wx:for='{{ydorder}}'>
+       <view data-code='{{item.code}}' data-url='{{item.url}}' data-name='{{item.name}}' class='diancan' bindtap='diancan'>
+      <view class='diancan1'>
+      <image src='{{img}}{{item.url}}'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>{{item.name}}</view>
+        <view class='diancan112'>￥{{item.total/100}}<span bindtap='a'   data-a='a' ><image  src='/img/p26.png'></image>删除</span></view>
+      </view>
+      </view>
+      </view>
+      </view>
+    </view>
+    <view hidden="{{currentTab!==2}}">  
+    <view class="navbar2">  
+      <text wx:for="{{navbar2}}" data-idx="{{index}}" class="item2 {{currentTab2==index ? 'active2' : ''}}" wx:key="unique2" bindtap="navbarTap2">{{item}}</text>  
+    </view>  
+     <view hidden="{{currentTab2!==0}}">  
+  
+       <view  wx:for='{{worder}}'  data-code='{{item.code}}' data-url='{{item.url}}' data-name='{{item.name}}' class='diancan' bindtap='weiduihuan'>
+      <view class='diancan1'>
+      <image src='{{img}}{{item.url}}'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>{{item.name}}<span class='weiduihuan'>未兑换</span></view>
+        <view class='diancan112'>￥{{item.total/100}}<span><image src='/img/p27.jpg'></image>退款</span></view>
+      </view>
+      </view>
+      </view>
+     
+    </view>
+     <view hidden="{{currentTab2!==1}}">  
+       
+       <view  wx:for='{{yorder}}'  data-code='{{item.code}}' data-url='{{item.url}}' data-name='{{item.name}}' class='diancan' bindtap='yiduihuan'>
+      <view class='diancan1'>
+      <image src='{{img}}{{item.url}}'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>{{item.name}}<span class='yiduihuan'>已兑换</span></view>
+        <view class='diancan112'>￥{{item.total/100}}<span data-a='a'><image src='/img/p26.png'></image>删除</span></view>
+      </view>
+      </view>
+      </view>
+     
+    </view>
+    <view hidden="{{currentTab2!==2}}">  
+
+        <view wx:for='{{torder}}' wx:if="{{item.o_status==5}}" data-code='{{item.code}}' data-url='{{item.url}}' data-name='{{item.name}}' class='diancan' bindtap='yituikuan'>
+      <view class='diancan1'>
+      <image src='{{img}}{{item.url}}'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>{{item.name}}<span class='yiduihuan'>已退款</span></view>
+        <view class='diancan112'>￥{{item.total/100}}<span data-a='a'><image src='/img/p26.png'></image>删除</span></view>
+      </view>
+      </view>
+      </view>
+
+       <view wx:for='{{torder}}' wx:if="{{item.o_status==6}}"  data-code='{{item.code}}' data-url='{{item.url}}' data-name='{{item.name}}' class='diancan' bindtap='tuikuanshibai'>
+      <view class='diancan1'>
+      <image src='{{img}}{{item.url}}'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>{{item.name}}<span class='weiduihuan'>退款失败</span></view>
+        <view class='diancan112'>￥{{item.total/100}}<span data-a='a'><image src='/img/p26.png'></image>删除</span></view>
+      </view>
+      </view>
+      </view>
+
+       <view wx:for='{{torder}}'  wx:if="{{item.o_status==4}}"  data-code='{{item.code}}' data-url='{{item.url}}' data-name='{{item.name}}' class='diancan' bindtap='shenhezhong'>
+      <view class='diancan1'>
+      <image src='{{img}}{{item.url}}'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>{{item.name}}<span class='weiduihuan'>审核中</span></view>
+        <view class='diancan112'>￥{{item.total/100}}</view>
+      </view>
+      </view>
+      </view>
+
+      
+    </view>
+</view>  

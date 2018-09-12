@@ -1,0 +1,96 @@
+<view class='list'>
+  <view class='listhead'>
+    <image src='/img/p57.jpg'></image>
+    <text>一只会飞的猪</text>
+  </view>
+  <view class='content'>
+    <view class='content1'>
+      <view class='content11'>返点金额</view>
+      <view class='content12'>25.00</view>
+    </view>
+    <view class='content2'>
+      <view class='content11'>返点时间</view>
+      <view class='content22'>2018/07/09</view>
+    </view>
+  </view>
+</view>
+<view class='list'>
+  <view class='listhead'>
+    <image src='/img/p57.jpg'></image>
+    <text>一只会飞的猪</text>
+  </view>
+  <view class='content'>
+    <view class='content1'>
+      <view class='content11'>返点金额</view>
+      <view class='content12'>25.00</view>
+    </view>
+    <view class='content2'>
+      <view class='content11'>返点时间</view>
+      <view class='content22'>2018/07/09</view>
+    </view>
+  </view>
+</view>
+<view class='list'>
+  <view class='listhead'>
+    <image src='/img/p57.jpg'></image>
+    <text>一只会飞的猪</text>
+  </view>
+  <view class='content'>
+    <view class='content1'>
+      <view class='content11'>返点金额</view>
+      <view class='content12'>25.00</view>
+    </view>
+    <view class='content2'>
+      <view class='content11'>返点时间</view>
+      <view class='content22'>2018/07/09</view>
+    </view>
+  </view>
+</view>
+<view class='list'>
+  <view class='listhead'>
+    <image src='/img/p57.jpg'></image>
+    <text>一只会飞的猪</text>
+  </view>
+  <view class='content'>
+    <view class='content1'>
+      <view class='content11'>返点金额</view>
+      <view class='content12'>25.00</view>
+    </view>
+    <view class='content2'>
+      <view class='content11'>返点时间</view>
+      <view class='content22'>2018/07/09</view>
+    </view>
+  </view>
+</view>
+<view class='list'>
+  <view class='listhead'>
+    <image src='/img/p57.jpg'></image>
+    <text>一只会飞的猪</text>
+  </view>
+  <view class='content'>
+    <view class='content1'>
+      <view class='content11'>返点金额</view>
+      <view class='content12'>25.00</view>
+    </view>
+    <view class='content2'>
+      <view class='content11'>返点时间</view>
+      <view class='content22'>2018/07/09</view>
+    </view>
+  </view>
+</view>
+<view class='list'>
+  <view class='listhead'>
+    <image src='/img/p57.jpg'></image>
+    <text>一只会飞的猪</text>
+  </view>
+  <view class='content'>
+    <view class='content1'>
+      <view class='content11'>返点金额</view>
+      <view class='content12'>25.00</view>
+    </view>
+    <view class='content2'>
+      <view class='content11'>返点时间</view>
+      <view class='content22'>2018/07/09</view>
+    </view>
+  </view>
+</view>

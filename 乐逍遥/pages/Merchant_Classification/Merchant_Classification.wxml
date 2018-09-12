@@ -1,0 +1,6 @@
+<view class='all'  wx:for="{{goodsclass}}">
+  <view class='shangpu' ><view>{{item}}</view><span class="xiugai"><span data-goodsclass='{{item}}' bindtap='list'>删除</span><span>|</span><span data-goodsclass='{{item}}' bindtap='edus'>修改</span></span></view>
+</view>
+<view class='dingdanxinxi3'>
+<view class='shenqingtuikuan' bindtap='tianjia'>添加分类</view>
+</view>

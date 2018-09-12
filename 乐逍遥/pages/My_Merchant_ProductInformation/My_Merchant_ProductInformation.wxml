@@ -1,0 +1,17 @@
+
+
+<view wx:for="{{goods}}" class='list'>
+  <view class='list1'><image src='{{img}}{{item.url}}'></image></view>
+  <view class='list2'>
+  <view class='list21'>
+  <span class='list211'>{{item.name}}</span>
+  <span class='shanchu' data-id='{{item.id}}' bindtap='list'>删除</span>
+  </view>
+  <view class='list22'>{{item.content}}</view>
+  </view>
+</view>
+
+
+<view class='dingdanxinxi3'>
+<view class='shenqingtuikuan' bindtap='tianjia'>添加商品</view>
+</view>

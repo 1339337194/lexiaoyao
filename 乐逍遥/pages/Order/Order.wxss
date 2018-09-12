@@ -1,0 +1,93 @@
+.navbar{  
+  flex: none;  
+  display: flex;  
+  background: #fff;  
+}  
+.navbar .item{  
+  position: relative;  
+  flex: auto;  
+  text-align: center;  
+  line-height: 80rpx;  
+  font-size: 30rpx;
+}  
+.navbar .item.active{  
+  color: #f62f30;
+}  
+.navbar .item.active:after{  
+  content: "";  
+  display: block;  
+  position: absolute;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  height: 4rpx;  
+  background: #f62f30;  
+}  
+.diancan1{
+  width: 700rpx;
+  margin: 0 auto;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+}
+.diancan1 image{
+   width: 160rpx;
+  height: 160rpx;
+}
+.diancan{
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.diancan11{
+  margin-left: 24rpx;
+}
+.diancan111{
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.diancan112{
+  margin-top: 70rpx;
+  color: #f62f30;
+}
+.diancan112 image{
+  width: 34rpx;
+  height: 34rpx;
+  margin-right: 10rpx;
+}
+.diancan112 span{
+    position: absolute;
+    right: 34rpx;
+    color: #666666;
+    font-size: 34rpx;
+}
+.navbar2{  
+  flex: none;  
+  display: flex;  
+  background: #fff;  
+  margin-top: 20rpx;
+}  
+.navbar2 .item2{  
+  position: relative;  
+  flex: auto;  
+  text-align: center;  
+  line-height: 80rpx;  
+  font-size: 30rpx;
+  background-color: #efefef;
+  border-radius: 80rpx;
+}  
+.navbar2 .item2.active2{  
+  color: white;
+  border: 0;
+  background-color: #f62f30;
+}  
+.weiduihuan{
+  color:#f62f30;
+  position: absolute;
+  right: 34rpx;
+}
+.yiduihuan{
+  color:#999999;
+  position: absolute;
+  right: 34rpx;
+}

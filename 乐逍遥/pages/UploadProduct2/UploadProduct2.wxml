@@ -1,0 +1,13 @@
+<view class='sousuo'>
+<view class='leibie'>商品名称</view>
+<view class='sousuo1'><input type='text' placeholder='请输入商品名称'></input></view>
+</view>
+<view class='shangchuantupian'>
+<view>上传商品图</view>
+<view class='shangchuantupian1'><image src='/img/p38.jpg'></image></view>
+</view>
+<view class='shangpinmiaoshu'>
+  <view>商品描述</view>
+  <view class='shangpinmiaoshu1'><textarea placeholder='请输入商品描述'></textarea></view>
+</view>
+<view class='queding' bindtap='queding'>确定</view>

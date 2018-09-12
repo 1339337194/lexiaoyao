@@ -1,0 +1,145 @@
+<view class='banner'>
+      <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+      <block wx:for="{{movies}}" wx:for-index="index">  
+      <swiper-item>  
+      <image src="{{img}}{{item.url}}" class="slide-image" mode="aspectFill"/>  
+      </swiper-item>  
+    </block>  
+    </swiper>
+    <view class='logo'><image src='/img/p2.png'></image></view>
+    <view class='diqu'>
+    <view class='tab'>
+    <view class="phone_one" bindtap="clickPerson">
+    <view class="phone_personal"bindtap="jiantou">{{firstPerson}} {{jiantou}}</view>
+    </view>
+     <view class="person_box">
+    <view class="phone_select" hidden="{{selectPerson}}">
+        <view class="select_one" bindtap="mySelect" data-me="保定">保定</view>
+        <view class="select_one" bindtap="mySelect" data-me="北京">北京</view>
+        <view class="select_one" bindtap="mySelect" data-me="天津">天津</view>
+        <view class="select_one" bindtap="mySelect" data-me="秦皇岛">秦皇岛</view>
+        <view class="select_one" bindtap="mySelect" data-me="上海">上海</view>
+    </view>
+    </view>
+     </view>
+     </view>
+     <view class='sousuokuang'>
+     <image src='/img/p3.png'></image>
+     <input placeholder-class="phcolor" value='' type='text' placeholder='请输入要搜索的内容'></input>
+     </view>
+  </view>
+  <view class='fenlei'>
+
+    <view class='fenlei1'>
+<block wx:for="{{classname}}" wx:if="{{index<4}}">
+<block wx:if="{{index<2}}">
+      <view class='fenlei11'>
+        <image src='{{img}}{{item.url}}' data-classid='{{item.id}}' bindtap='list2'></image>
+        <view>{{item.name}}</view>
+      </view>
+ </block>
+<block wx:if="{{index>1}}">
+      <view class='fenlei11'>
+        <image src='{{img}}{{item.url}}' data-classid='{{item.id}}' bindtap='list'></image>
+        <view>{{item.name}}</view>
+      </view>
+ </block>
+      </block>
+    </view>
+
+
+    <view class='fenlei1'>
+
+    <block wx:for="{{classname}}" wx:if="{{index>3}}">
+
+      <view class='fenlei11'>
+        <image src='{{img}}{{item.url}}' data-classid='{{item.id}}'  bindtap='list'></image>
+        <view>{{item.name}}</view>
+      </view>
+
+      </block>
+
+    </view>
+
+  </view>
+
+
+
+  <view class='tupianzhanshi'>
+    <view class='tupianzhanshi1'>
+    <block wx:for='{{zst}}' wx:if="{{index==0}}">
+      <image src='{{img}}{{item.url}}'></image>
+      </block>
+    </view>
+     <view class='tupianzhanshi2'>
+     <block wx:for='{{zst}}' wx:if="{{index==1}}">
+      <image src='{{img}}{{item.url}}'></image>
+      </block>
+       <block wx:for='{{zst}}' wx:if="{{index==2}}">
+      <image src='{{img}}{{item.url}}' class='tupianzhanshi22'></image>
+      </block>
+    
+     </view>
+  </view>
+
+
+  <view class='jinrituijian'>
+    <view class='jinrituijian_head'>
+      <image src='/img/p15.jpg'></image>
+      <view>今日推荐</view>
+    </view>
+    <view class='jinrituijian_content'>
+  
+       <view  wx:for='{{mch}}' class='jinrituijian_content1'  wx:if='{{item.class_id==1||item.class_id==2}}' data-mch='{{item}}' data-mchid='{{item.id}}' bindtap='list3'>
+        <image src='{{img}}{{item.url}}'></image>
+        <view>{{item.name}}</view>
+        <view class='jinrituijian_content12'>￥475.00</view>
+      </view>
+
+       <view  wx:for='{{mch}}' class='jinrituijian_content1'  wx:if='{{item.class_id!=1&&item.class_id!=2}}' data-mch='{{item}}' data-mchid='{{item.id}}' bindtap='list4'>
+        <image src='{{img}}{{item.url}}'></image>
+        <view>{{item.name}}</view>
+        <view class='jinrituijian_content12'>￥475.00</view>
+      </view>
+       
+    </view>
+  </view>
+  <view class='caininxihuan'>
+    <view class='jinrituijian_head'>
+      <image src='/img/p17.jpg'></image>
+      <view>猜您喜欢</view>
+    </view>
+
+
+  
+   <view wx:for='{{mch}}' class='caininxihuan_list' wx:if='{{item.class_id==1||item.class_id==2}}' data-mch='{{item}}' data-mchid='{{item.id}}' bindtap='list3'>
+    <view class='caininxihuan_content'>
+      <view class='caininxihuan_content1'>
+        <image src='{{img}}{{item.url}}'></image>
+      </view>
+      <view class='caininxihuan_content2'>
+        <view class='caininxihuan_content21'>{{item.name}}</view>
+        <view class='caininxihuan_content22'>{{item.content}}</view>
+        <view class='caininxihuan_content23'>￥49.00</view>
+      </view>
+    </view>
+  </view>
+
+     <view wx:for='{{mch}}' class='caininxihuan_list' wx:if='{{item.class_id!=1&&item.class_id!=2}}' data-mch='{{item}}' data-mchid='{{item.id}}' bindtap='list4'>
+    <view class='caininxihuan_content'>
+      <view class='caininxihuan_content1'>
+        <image src='{{img}}{{item.url}}'></image>
+      </view>
+      <view class='caininxihuan_content2'>
+        <view class='caininxihuan_content21'>{{item.name}}</view>
+        <view class='caininxihuan_content22'>{{item.content}}</view>
+        <view class='caininxihuan_content23'>￥49.00</view>
+      </view>
+    </view>
+  </view>
+
+  </view>
+  <view class='jiazaigengduo'>
+    <image src='/img/p19.jpg'></image>
+    <view>加载更多</view>
+  </view>

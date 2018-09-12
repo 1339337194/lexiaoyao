@@ -1,0 +1,18 @@
+ <view class='diancan'>
+      <view class='diancan1'>
+      <image src='/img/p18.jpg'></image>
+      <view class='diancan11'>
+        <view class='diancan111'>维洛纳主题酒店（时代店）</view>
+      </view>
+      </view>
+</view>
+<view class='dingdanxinxi2'>
+<view class='dingdanxinxi2_head'>预定信息</view>
+<view class='dingdanxinxi2_content'>
+  <view class='dingdanxinxi2_content1'>日期<span>2018-06-20</span></view>
+  <view class='dingdanxinxi2_content1'>人数<span>4</span></view>
+  <view class='dingdanxinxi2_content1'>联系人<span>王华</span></view>
+  <view class='dingdanxinxi2_content1'>联系电话<span>13000000000</span></view>
+  <view class='dingdanxinxi2_content1'>备注<span>预留座位，中午12点左右就餐。</span></view>
+</view>
+</view>

@@ -1,0 +1,14 @@
+<view class='headimg'>
+<image src='{{img}}{{good.url}}'></image>
+</view>
+<view class='name'>
+<view class='name1'>{{good.name}}</view>
+<view class='name2'>￥{{good.price/100}}</view>
+</view>
+<view class='shangpin'>
+  <view class='shangpin_head'>商品描述</view>
+  <view class='shangpin_content'>{{good.content}}</view>
+</view>
+<view class='dingdanxinxi3'>
+<view class='shenqingtuikuan' data-id='{{good.id}}' bindtap='goumai'>立即购买</view>
+</view>

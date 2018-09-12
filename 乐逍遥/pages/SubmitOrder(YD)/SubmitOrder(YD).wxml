@@ -1,0 +1,30 @@
+
+<view wx:for='{{goods}}' class='list'>
+  <view class='list1'><image src='{{item.icon}}'></image></view>
+  <view class='list2'><text>{{item.name}}</text><text class='qian'>¥ {{item.price}}</text>
+  <view class='shuliang'>x{{item.num}}</view>
+  </view>
+</view>
+<form bindsubmit="formSubmit">
+<view class='shifu'>实付：<span>¥{{total}}</span></view>
+<view class='biao'>
+<text>联系人</text>
+<input type='text' name='name' placeholder='请输入联系人姓名'></input>
+</view>
+<view class='biao'>
+<text>联系方式</text>
+<input type='number' name='phone' placeholder='请输入联系人方式'></input>
+</view>
+<view class='biao'>
+<text>支付方式</text>
+<view class='zhifu'><image src='/img/p49.jpg'></image>微信支付</view>
+</view>
+<view class='beizhu'>
+  <view class='beizhu1'>备注</view>
+  <view class='beizhu2'><textarea type='text' name='content' placeholder='填写备注'></textarea></view>
+</view>
+<view class='foot'>
+<text class='heji'>合计：￥{{total}}</text>
+<button  class='tijiao' formType="submit">提交订单</button>
+</view>
+</form>

@@ -1,0 +1,56 @@
+.headimg{
+  height: 516rpx;
+}
+.headimg image{
+  width: 100%;
+  height: 100%;
+}
+.name2 image{
+  width: 28rpx;
+  height: 36rpx;
+}
+.name view{
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.name2 image{
+  margin-right: 20rpx;
+}
+.name1{
+font-size: 40rpx;
+}
+.name2{
+  font-size: 32rpx;
+  color: #f62f30;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+}
+.shangpin{
+  margin-top: 30rpx;
+  padding-top: 30rpx;
+  border-top: 20rpx solid #f2f2f2;
+}
+.shangpin_head{
+  margin-left: 30rpx;
+}
+.shangpin_content{
+  margin: 30rpx;
+  font-size: 26rpx;
+  color: #666666;
+  line-height: 40rpx;
+}
+.dingdanxinxi3{
+  margin: 100rpx 30rpx 30rpx 30rpx;
+}
+.shenqingtuikuan{
+  height: 88rpx;
+  background-color: #f62f30;
+  color: white;
+  text-align: center;
+  line-height: 88rpx;
+  border-radius: 10rpx;
+  font-weight: bold;
+}

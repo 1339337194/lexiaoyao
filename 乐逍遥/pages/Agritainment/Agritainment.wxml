@@ -1,0 +1,30 @@
+<view class='headimg'>
+<image src='{{img}}{{mch.url}}'></image>
+</view>
+<view class='name'>
+<view class='name1'>{{mch.name}}</view>
+<view class='name2' bindtap='map'><image src='/img/p45.png'></image><text>{{mch.address}}  </text></view>
+</view>
+<view class='content'>
+  <view class='diancan'>
+    <view class='diancan1' bindtap='diancan1'><image src='/img/p52.png'></image><text>点餐</text></view>
+    <view class='diancan2' bindtap='yuding'><image src='/img/p53.png'></image><text>预定</text></view>
+  </view>
+</view>
+<view class='tuijian'>
+<image src='/img/p54.jpg'></image>
+<text>菜品推荐</text>
+</view>
+<view class='content'>
+
+
+
+
+<view  wx:for="{{goods}}" class='content1' data-id='{{item.id}}' bindtap='tuijian'>
+  <image src='{{img}}{{item.url}}'></image>
+  <view>{{item.name}}</view>
+  <view class='jiage'>￥{{item.price/100}}</view>
+</view>
+
+
+</view>

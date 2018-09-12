@@ -1,0 +1,21 @@
+<view class='tuikuanjine'>
+  <view class='tuikuanjine_head'>申请记录</view>
+  <view class='shenhezhong_content'>
+    <view class='shenhezhong_content1'>
+      <image src='/img/p28.jpg'></image>
+      <view class='shenhezhong_content11'>买家申请退款</view>
+      <view class='shenhezhong_content12'>{{ttime}}</view>
+    </view>
+     <view class='shenhezhong_content1'>
+      <image src='/img/p28.jpg'></image>
+      <view class='shenhezhong_content11'>退款说明</view>
+      <view class='shenhezhong_content12'>{{content}}</view>
+    </view>
+     <view class='shenhezhong_content1'>
+      <image src='/img/p28.jpg'></image>
+      <view class='shenhezhong_content11'>退款金额</view>
+      <view class='shenhezhong_content13'>￥{{total/100}}</view>
+    </view>
+  </view>
+</view>
+<view class='shenhezhong'>审核中....</view>

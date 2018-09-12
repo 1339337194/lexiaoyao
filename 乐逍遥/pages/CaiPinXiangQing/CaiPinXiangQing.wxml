@@ -1,0 +1,13 @@
+<view class='headimg'>
+<image src='{{img}}{{good.url}}'></image>
+</view>
+<view class='name'>
+<view class='name1'>{{good.name}}</view>
+</view>
+<view class='shangpin'>
+  <view class='shangpin_head'>商品描述</view>
+  <view class='shangpin_content'>{{good.content}}</view>
+</view>
+<view class='dingdanxinxi3'>
+<view bindtap='diancan1' class='shenqingtuikuan'><image src='/img/p52.png'></image><text>点餐</text></view>
+</view>

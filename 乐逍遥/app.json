@@ -1,0 +1,87 @@
+{
+  "pages":[
+
+    "pages/login/login",
+    "pages/index/index",
+    "pages/SubmitOrder/SubmitOrder",
+    "pages/Coupon_Details/Coupon_Details",
+    "pages/Order_Details/Order_Details",
+    "pages/Move_Details/Move_Details",
+    "pages/list/list",
+    "pages/ApplicationForm/ApplicationForm",
+    "pages/Completed/Completed",
+    "pages/Undone/Undone",
+    "pages/CheckOrder/CheckOrder",
+    "pages/ShopInformation2/ShopInformation2",
+    "pages/AddCategory/AddCategory",
+    "pages/EduCategory/EduCategory",
+    "pages/UploadProduct2/UploadProduct2",
+    "pages/My_Merchant_ProductInformation/My_Merchant_ProductInformation",
+    "pages/Merchant_Classification/Merchant_Classification",
+    "pages/Merchant/Merchant",
+    "pages/Exchange/Exchange",
+    "pages/ShopInformation/ShopInformation",
+    "pages/My_Merchant/My_Merchant",
+    "pages/Reserve_Details/Reserve_Details",
+    "pages/Redeemed_Details/Redeemed_Details",
+    "pages/Request_a_refund/Request_a_refund",
+    "pages/RefundFailed_Details/RefundFailed_Details",
+    "pages/PaySuccess(YD)/PaySuccess(YD)",
+    "pages/SubmitOrder(YD)/SubmitOrder(YD)",
+    "pages/Book/Book",
+    "pages/Menu/Menu",
+    "pages/MyReturn/MyReturn",
+    "pages/MySubordinates/MySubordinates",
+    "pages/Agritainment/Agritainment",
+    "pages/CaiPinXiangQing/CaiPinXiangQing",
+    "pages/list2/list2",
+    "pages/PaySuccess/PaySuccess",
+    "pages/Map/Map",
+    "pages/CheckOrder2/CheckOrder2",
+    "pages/My_Merchant_ProductInformation2/My_Merchant_ProductInformation2",
+    "pages/Exchange_Success/Exchange_Success",
+    "pages/NotRedeemed/NotRedeemed",
+    "pages/My/My",
+    "pages/Order/Order",
+    "pages/Refunded/Refunded",
+    "pages/Refunding_Details/Refunding_Details",
+    "pages/UploadProduct/UploadProduct",
+    "pages/Reviewing/Reviewing",
+ 
+    
+    
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor":"#fff",
+    "color": "#333333",
+    "selectedColor": "#e31a1f",
+    "borderStyle": "#fff",
+    "list": [
+      {
+        "selectedIconPath": "/img/p20.jpg",
+        "iconPath": "/img/p21.jpg",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "/img/p22.jpg",
+        "iconPath": "/img/p23.jpg",
+        "pagePath": "pages/Order/Order",
+        "text": "订单"
+      },
+      {
+        "selectedIconPath": "/img/p24.jpg",
+        "iconPath": "/img/p25.jpg",
+        "pagePath": "pages/My/My",
+        "text": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+.caininxihuan_content1 image{
+  width: 152rpx;
+  height: 152rpx;
+}
+.caininxihuan_content{
+  width: 700rpx;
+  margin: 0 auto;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+}
+.caininxihuan_list{
+  padding-top:24rpx;
+  padding-bottom: 14rpx;
+  border-bottom:  1px solid #f2f2f2;
+}
+.caininxihuan_content2{
+  margin-left: 32rpx;
+}
+.caininxihuan_content21{
+  font-size: 32rpx;
+  line-height: 50rpx;
+  font-weight: bold;
+}
+.caininxihuan_content22{
+  font-size: 24rpx;
+  line-height: 40rpx;
+  color: #666666;
+  display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2; /** 显示的行数 **/
+  overflow: hidden;  /** 隐藏超出的内容 **/
+}
+.caininxihuan_content23{
+  font-size: 38rpx;
+  line-height: 50rpx;
+  color: #f62f30;
+}
+.caininxihuan .jinrituijian_head{
+  padding-bottom: 16rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.jiazaigengduo{
+  height: 92rpx;
+  color: #999999;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+}
+.jiazaigengduo image{
+  width: 32rpx;
+  height: 32rpx;
+  margin: 10rpx;
+}

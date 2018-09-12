@@ -1,0 +1,211 @@
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+.logo{
+  width: 110rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 20rpx;
+  left: 24rpx;
+}
+.logo image{
+  width: 100%;
+  height: 100%;
+}
+.tab{
+  color: white;
+}
+.phone_select{
+  background-color: white;
+  color: #666666;
+  text-align: center;
+  width: 130rpx;
+}
+.select_one{
+  padding: 6rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.diqu{
+  position: absolute;
+  top: 20rpx;
+  left: 170rpx;
+}
+.sousuokuang{
+  background:rgba(0, 0, 0, 0.3);
+  height: 50rpx;
+  width: 420rpx;
+  border-radius: 50rpx;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  	display: flex; 
+  	flex-direction: row;  
+    align-items: center;
+     position: absolute;
+  top: 20rpx;
+  left: 300rpx;
+  font-size: 30rpx;
+}
+.sousuokuang input{
+  width: 90%;
+  margin-left: 10rpx;
+  color: white;
+}
+.sousuokuang image{
+  width: 34rpx;
+  height: 28rpx;
+  margin-left: 20rpx;
+}
+.phcolor{
+    color:white;
+}
+
+.fenlei image{
+  width: 100rpx;
+  height: 118rpx;
+}
+.fenlei11{
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  color: #666666;
+  font-size: 24rpx;
+  width: 25%;
+   margin-top: 20rpx;
+}
+.fenlei1{
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+}
+.tupianzhanshi{
+  border-top: 18rpx solid #f2f2f2;
+    margin-top: 34rpx;
+  padding-top: 34rpx;
+}
+.tupianzhanshi1{
+  width: 700rpx;
+  margin: 0 auto;
+  height: 210rpx;
+}
+.tupianzhanshi1 image{
+  width: 100%;
+  height: 100%;
+}
+.tupianzhanshi2{
+  width: 700rpx;
+  margin: 0 auto;
+   margin-top: 14rpx;
+}
+.tupianzhanshi2 image{
+  width: 340rpx;
+  height: 208rpx;
+  border-radius: 20rpx;
+}
+.tupianzhanshi22{
+ margin-left:18rpx;
+}
+.jinrituijian{
+  border-top: 18rpx solid #f2f2f2;
+  margin-top: 34rpx;
+  padding-top: 34rpx;
+}
+.jinrituijian_head{
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+}
+.jinrituijian_head image{
+  width: 36rpx;
+  height: 36rpx;
+}
+.jinrituijian_head view{
+  color: #f62f30;
+  font-size: 35rpx;
+  margin-left: 20rpx;
+}
+.jinrituijian_content{
+  width: 700rpx;
+  margin: 0 auto;
+  margin-top: 24rpx;
+  font-size: 24rpx;
+   display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+}
+.jinrituijian_content image{
+  width: 222rpx;
+  height: 138rpx;
+}
+.jinrituijian_content1{
+  width: 33.3%;
+  margin-left: 10rpx;
+}
+.jinrituijian_content12{
+  color: #f62f30;
+}
+.caininxihuan{
+  border-top: 18rpx solid #f2f2f2;
+  margin-top: 34rpx;
+  padding-top: 34rpx;
+}
+.caininxihuan_content1 image{
+  width: 152rpx;
+  height: 152rpx;
+}
+.caininxihuan_content{
+  width: 700rpx;
+  margin: 0 auto;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+}
+.caininxihuan_list{
+  padding-top:24rpx;
+  padding-bottom: 14rpx;
+  border-bottom:  1px solid #f2f2f2;
+}
+.caininxihuan_content2{
+  margin-left: 32rpx;
+}
+.caininxihuan_content21{
+  font-size: 32rpx;
+  line-height: 50rpx;
+  font-weight: bold;
+}
+.caininxihuan_content22{
+  font-size: 24rpx;
+  line-height: 40rpx;
+  color: #666666;
+  display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2; /** 显示的行数 **/
+  overflow: hidden;  /** 隐藏超出的内容 **/
+}
+.caininxihuan_content23{
+  font-size: 38rpx;
+  line-height: 50rpx;
+  color: #f62f30;
+}
+.caininxihuan .jinrituijian_head{
+  padding-bottom: 16rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.jiazaigengduo{
+  height: 92rpx;
+  color: #999999;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+}
+.jiazaigengduo image{
+  width: 32rpx;
+  height: 32rpx;
+  margin: 10rpx;
+}

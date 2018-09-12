@@ -1,0 +1,27 @@
+
+  <view class='caininxihuan'>
+
+
+
+<block wx:for="{{mch}}">
+   <view class='caininxihuan_list' data-mch='{{item}}' data-mchid='{{item.id}}' bindtap='list2'>
+    <view class='caininxihuan_content'>
+      <view class='caininxihuan_content1'>
+        <image src='{{img}}{{item.url}}'></image>
+      </view>
+      <view class='caininxihuan_content2'>
+        <view class='caininxihuan_content21'>{{item.name}}</view>
+        <view class='caininxihuan_content22'>{{item.content}}</view>
+        <view class='caininxihuan_content23'>￥49.00</view>
+      </view>
+    </view>
+  </view>
+</block>
+
+
+
+  </view>
+  <view class='jiazaigengduo'>
+    <image src='/img/p19.jpg'></image>
+    <view>加载更多</view>
+  </view>

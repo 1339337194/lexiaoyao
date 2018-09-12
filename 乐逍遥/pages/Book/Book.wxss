@@ -1,0 +1,104 @@
+.sousuo{
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  padding: 30rpx;
+}
+.sousuo22{
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  padding: 30rpx;
+  height: 200rpx;
+}
+.sousuo3{
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  padding: 30rpx;
+}
+.yanzhengma{
+  font-size: 28rpx;
+  text-align: center;
+  height: 70rpx;
+  line-height: 70rpx;
+  border-radius: 70rpx;
+  background-color:  #f1f3f4;
+  position: absolute;
+  right: 30rpx;
+  color: #f62f30;
+  width: 24%;
+}
+.sousuo input{
+  margin-left: 20rpx;
+  font-size: 24rpx;
+  height: 70rpx;
+  margin-right: 20rpx;
+}
+.sousuo3 input{
+  margin-left: 20rpx;
+  font-size: 24rpx;
+  height: 70rpx;
+  margin-right: 20rpx;
+  
+}
+.sousuo1{
+  background-color: #f1f3f4;
+  width: 70%;
+  margin-left: 30rpx;
+  border-radius: 70rpx;
+  height:70rpx;
+  position: absolute;
+  right: 30rpx;
+}
+.sousuo2{
+  background-color: #f1f3f4;
+  width: 70%;
+  margin-left: 30rpx;
+  border-radius: 20rpx;
+  height:200rpx;
+  position: absolute;
+  right: 30rpx;
+}
+.sousuo33{
+  background-color: #f1f3f4;
+  width: 50%;
+  margin-left: 10%;
+  border-radius: 70rpx;
+  height:70rpx;
+ 
+}
+.sousuo2 textarea{
+  margin-top: 10rpx;
+  width: 90%;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  height: 180rpx;
+}
+.leibie{
+  font-size: 32rpx;
+  color: #333333;
+}
+.shangchuan{
+  margin: 30rpx;
+  font-size: 32rpx;
+  color: #333333;
+}
+.shangchuan2{
+  margin-top: 30rpx;
+}
+.shangchuan2 image{
+ width: 100%;
+ height: 374rpx;
+}
+.queding{
+  background-color: #f62f30;
+  color: white;
+  text-align: center;
+  height: 90rpx;
+  line-height: 90rpx;
+  margin: 120rpx 30rpx 0 30rpx;
+  border-radius: 10rpx;
+}

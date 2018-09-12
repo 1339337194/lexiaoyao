@@ -1,0 +1,57 @@
+.sousuo{
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  padding: 30rpx;
+}
+.sousuo input{
+  margin-left: 20rpx;
+  font-size: 24rpx;
+  height: 70rpx;
+  margin-right: 20rpx;
+}
+.sousuo1{
+  background-color: #f1f3f4;
+  width: 78%;
+  margin-left: 30rpx;
+  border-radius: 70rpx;
+  height:70rpx;
+}
+.leibie{
+  font-size: 32rpx;
+}
+.shangchuantupian{
+  margin: 0 30rpx;
+  font-size: 32rpx;
+  color: #333333;
+}
+.shangchuantupian image{
+  height: 164rpx;
+  width: 246rpx;
+}
+.shangchuantupian1{
+  margin-top: 30rpx;
+}
+.shangpinmiaoshu{
+  color: #333333;
+  margin: 30rpx 30rpx 0 30rpx;
+  font-size: 32rpx;
+}
+.shangpinmiaoshu1{
+  background-color: #f1f3f4;
+  padding: 20rpx;
+  margin-top: 30rpx;
+}
+.shangpinmiaoshu1 textarea{
+  width: 100%;
+}
+.queding{
+  background-color: #f62f30;
+  color: white;
+  text-align: center;
+  height: 90rpx;
+  line-height: 90rpx;
+  margin: 120rpx 30rpx 0 30rpx;
+  border-radius: 10rpx;
+}

@@ -1,0 +1,101 @@
+.headimg{
+  height: 394rpx;
+}
+.headimg image{
+  width: 100%;
+  height: 100%;
+}
+.name2 image{
+  width: 28rpx;
+  height: 36rpx;
+}
+.name view{
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.name2 image{
+  margin-right: 20rpx;
+}
+.name1{
+font-size: 32rpx;
+}
+.name2{
+  font-size: 22rpx;
+  color: #666666;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+}
+.content{
+  margin-top: 30rpx;
+  border-top: 20rpx solid #f2f2f2;
+  padding: 30rpx;
+}
+.diancan{
+  text-align: center;
+  color: white;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  height: 74rpx;
+  line-height: 74rpx;
+}
+.diancan view{
+  width: 340rpx;
+  height: 68rpx;
+  border-radius: 16rpx;
+  font-size: 38rpx;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.diancan image{
+  width: 50rpx;
+  height: 43rpx;
+  margin-right: 10rpx;
+}
+.diancan1{
+   background-color: #f62f30;
+}
+.diancan2{
+   background-color: #f0a232;
+   margin-left: 16rpx;
+}
+.tuijian{
+  color: #f62f30;
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.tuijian image{
+  width: 34rpx;
+  height: 34rpx;
+  margin-right: 10rpx;
+}
+.content1 image{
+  width: 100%;
+  height: 150rpx;
+}
+.content1{
+  font-size: 30rpx;
+  width: 30%;
+  margin-left: 3%;
+  margin-top: 30rpx;
+}
+.jiage{
+  color: #f62f30;
+}
+.content{
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}

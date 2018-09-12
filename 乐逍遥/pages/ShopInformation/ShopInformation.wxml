@@ -1,0 +1,50 @@
+<form bindsubmit="formSubmit">
+<view class='sousuo'>
+<view class='leibie'>详细地址</view>
+<view class='sousuo1'><input type='text' name='address' placeholder='请填写您的详细地址' value='{{address}}'></input></view>
+</view>
+<view class='sousuo'>
+<view class='leibie'>店铺名称</view>
+<view class='sousuo1'><input type='text' name='name' placeholder='请填写您的店铺名称' value='{{name}}'></input></view>
+</view>
+<view class='sousuo'>
+<view class='leibie'>店铺描述</view>
+<view class='sousuo1'><input type='text' name='content' placeholder='请填写您的店铺描述' value='{{content}}'></input></view>
+</view>
+  <view class='sousuo'> 
+<view class='leibie' >商铺分类</view>
+ <!-- <view class='sousuo1' >   -->
+<picker class='sousuo1'  name='classname' mode="selector" bindchange="listenerPickerSelected" range="{{array}}" value="{{array[index]}}" >
+    <text style=' margin-left:20rpx;font-size: 24rpx;'>{{array[index]}}</text>
+   
+</picker>
+       <!-- </view>  -->
+  </view>   
+
+<view class='sousuo'>
+<view class='leibie'>联系人</view>
+<view class='sousuo1'><input name='user' type='text' placeholder='请填写您的姓名' value='{{user}}'></input></view>
+</view>
+<view class='sousuo'>
+<view class='leibie'>联系方式</view>
+<view class='sousuo1'><input name='phone' type='number' placeholder='请填写您的电话号码'value='{{phone}}'></input></view>
+</view>
+ <!-- <image src="{{imgsss}}{{}}" ></image> -->
+ <!-- <view class='shangchuan'>
+   <view class=''>上传门店图</view> 
+   <view class='shangchuan2'><image src='/img/p39.jpg'></image></view> 
+</view>  -->
+<view class='shangchuan'>
+<view class=''>上传门店图</view> 
+<view class="educt_hasupload_pic" wx:for="{{evalList[0].tempFilePaths}}"  wx:key="index">
+              <image src="{{item.pic}}" bindtap='clearImg' class="upload"></image>
+              <!-- <image src="../../images/deltel.png" bindtap='clearImg' data-index="{{index}}" class="deltel"></image> -->
+          </view>
+          <view class="educt_upload_add" bindtap="joinPicture" data-index="{{0}}">
+              <image src="/img/p39.jpg"></image>
+          </view>
+</view>
+<!-- <view class='queding' form-type='submit'  bindtap='baocun'>保存</view> -->
+<input hidden='true'  name='url' value='{{imgurl}}'></input>
+<button class='queding' formType="submit">保存</button>
+</form>

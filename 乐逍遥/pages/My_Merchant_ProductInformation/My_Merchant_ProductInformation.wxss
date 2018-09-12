@@ -1,0 +1,58 @@
+.list{
+  padding: 30rpx;
+}
+.list1 image{
+  width: 246rpx;
+  height: 148rpx;
+}
+.list{
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  font-size: 22rpx;
+  color: #666666;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.list21{
+  margin-bottom: 30rpx;
+}
+.list2{
+  margin-left: 20rpx;
+}
+.shanchu{
+  position: absolute;
+  right: 40rpx;
+}
+.list22{
+  display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+    -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+    -webkit-line-clamp: 3; /** 显示的行数 **/
+    overflow: hidden;  /** 隐藏超出的内容 **/
+}
+.list21{
+  display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+}
+.list211{
+  width: 80%;
+  display: -webkit-box; /** 将对象作为伸缩盒子模型显示 **/
+    -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+    -webkit-line-clamp: 1; /** 显示的行数 **/
+    overflow: hidden;  /** 隐藏超出的内容 **/
+}
+.dingdanxinxi3{
+  margin: 30rpx 30rpx 0 30rpx;
+}
+.shenqingtuikuan{
+  font-size: 28rpx;
+  height: 88rpx;
+  background-color: #f62f30;
+  color: white;
+  text-align: center;
+  line-height: 88rpx;
+  border-radius: 10rpx;
+  font-weight: bold;
+}
