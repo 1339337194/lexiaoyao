@@ -10,7 +10,7 @@ Page({
     selectPerson: true,
     firstPerson: '保定',
     selectArea: false,
-    jiantou: " ∨ ",
+    jiantou: "  ",
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     img: app.globalData.imgurl,
     movies:'',

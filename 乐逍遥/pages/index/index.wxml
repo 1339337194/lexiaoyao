@@ -10,7 +10,7 @@
     <view class='diqu'>
     <view class='tab'>
     <view class="phone_one" bindtap="clickPerson">
-    <view class="phone_personal"bindtap="jiantou">{{firstPerson}} {{jiantou}}</view>
+    <view class="phone_personal"bindtap="jiantou">{{firstPerson}}<image style='width:12px;height:7px;' src='/img/p60.png'>{{jiantou}}</image>{{jiantou}}</view>
     </view>
      <view class="person_box">
     <view class="phone_select" hidden="{{selectPerson}}">

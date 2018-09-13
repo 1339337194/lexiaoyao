@@ -61,8 +61,8 @@
 }
 
 .fenlei image{
-  width: 100rpx;
-  height: 118rpx;
+  width: 125rpx;
+  height: 126rpx;
 }
 .fenlei11{
   display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
